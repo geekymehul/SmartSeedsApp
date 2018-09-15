@@ -22,6 +22,8 @@
             </intent-filter>
         </activity>
         <activity android:name=".AddLedgerActivity" />
+        <activity android:name=".AddPostRequest.PostActivity"></activity>
+        <activity android:name=".AddLedgerActivity" />
         <activity android:name=".OfficerLoginActivity" />
         <activity android:name=".VerifyActivity"></activity>
     </application>

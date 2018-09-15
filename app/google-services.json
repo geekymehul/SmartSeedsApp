@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "62008238939",
+    "firebase_url": "https://naggaro-3ba04.firebaseio.com",
+    "project_id": "naggaro-3ba04",
+    "storage_bucket": "naggaro-3ba04.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:62008238939:android:172ed649d1d36607",
+        "android_client_info": {
+          "package_name": "com.developinggeek.naggaro"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "62008238939-32940dp91ceem2qcqsm19pchi4vhbhjk.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.developinggeek.naggaro",
+            "certificate_hash": "6089fcdec386fd399db10dfa2ae61edf3c4bce8f"
+          }
+        },
+        {
+          "client_id": "62008238939-ouo5oitum0j7h3k7stod4ea40kfp0t52.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBy_mV_NhDzzPredNNa9xfm32m2VjHeD3c"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "62008238939-ouo5oitum0j7h3k7stod4ea40kfp0t52.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

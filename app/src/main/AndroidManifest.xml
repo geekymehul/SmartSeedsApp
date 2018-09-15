@@ -21,7 +21,9 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".AddLedgerActivity"></activity>
+        <activity android:name=".AddLedgerActivity" />
+        <activity android:name=".OfficerLoginActivity" />
+        <activity android:name=".VerifyActivity"></activity>
     </application>
 
 </manifest>

@@ -7,6 +7,84 @@
     android:orientation="vertical"
     tools:context="com.developinggeek.naggaro.AddLedgerActivity">
 
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Add a new Ledger"
+        android:textSize="18sp"
+        android:paddingLeft="10dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="20dp"/>
 
+    <EditText
+        android:id="@+id/ledger_edt_aadhar"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:background="@drawable/rectangle_white"
+        android:hint="Aadhar ID"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp" />
+
+    <EditText
+        android:id="@+id/ledger_edt_name"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/rectangle_white"
+        android:hint="Full Name"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp" />
+
+    <EditText
+        android:id="@+id/ledger_edt_address"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/rectangle_white"
+        android:hint="Loaction of land"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp" />
+
+    <EditText
+        android:id="@+id/ledger_edt_crop"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/rectangle_white"
+        android:hint="Crop"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp" />
+
+    <EditText
+        android:id="@+id/ledger_edt_area"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/rectangle_white"
+        android:hint="Area to be sown"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp" />
+
+    <Button
+        android:id="@+id/ledger_btn_add"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="40dp"
+        android:textColor="#FFF"
+        android:text="submit"
+        android:background="@drawable/round_rectangular"
+        android:backgroundTint="@color/colorPrimary"/>
 
 </LinearLayout>

@@ -61,6 +61,15 @@ public class LoginActivity extends AppCompatActivity
             }
         });
 
+        officerLogin.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent registerIntent = new Intent(LoginActivity.this , OfficerLoginActivity.class);
+                registerIntent.setFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP);
+                startActivity(registerIntent);
+            }
+        });
+
     }
 
     private void loginUser()

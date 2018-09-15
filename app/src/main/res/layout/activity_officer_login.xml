@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.developinggeek.naggaro.OfficerLoginActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:textColor="#FFF"
+        android:gravity="center_vertical"
+        android:text="Officer Login"
+        android:textStyle="bold"
+        android:textSize="16dp"
+        android:paddingLeft="20dp"
+        android:textAllCaps="true"
+        android:background="@color/colorPrimary"/>
+
+    <EditText
+        android:layout_marginTop="150dp"
+        android:id="@+id/officer_edt_id"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:background="@drawable/rectangle_white"
+        android:hint="Mail Address"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp" />
+
+    <EditText
+        android:id="@+id/officer_edt_pass"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/rectangle_white"
+        android:hint="Password"
+        android:inputType="textPassword"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp" />
+
+    <Button
+        android:id="@+id/officer_btn_login"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="30dp"
+        android:background="@color/colorAccent"
+        android:text="Login"
+        android:textColor="#FFF" />
+
+
+</LinearLayout>

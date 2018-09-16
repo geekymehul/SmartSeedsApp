@@ -4,16 +4,15 @@
 
     <application
         android:allowBackup="true"
-        android:icon="@mipmap/ic_launcher"
+        android:icon="@drawable/app_icon"
         android:label="@string/app_name"
-        android:roundIcon="@mipmap/ic_launcher_round"
+        android:roundIcon="@drawable/app_icon"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
         <activity android:name=".LoginActivity" />
         <activity android:name=".RegisterActivity" />
         <activity
             android:name=".HomeActivity"
-            android:label="@string/title_activity_home"
             android:theme="@style/AppTheme">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -22,10 +21,9 @@
             </intent-filter>
         </activity>
         <activity android:name=".AddLedgerActivity" />
-        <activity android:name=".AddPostRequest.PostActivity"></activity>
-        <activity android:name=".AddLedgerActivity" />
         <activity android:name=".OfficerLoginActivity" />
-        <activity android:name=".VerifyActivity"></activity>
+        <activity android:name=".VerifyActivity" />
+        <activity android:name=".ReportActivity"></activity>
     </application>
 
 </manifest>

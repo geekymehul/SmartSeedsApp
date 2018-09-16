@@ -21,7 +21,7 @@
             android:layout_marginLeft="20dp"
             android:layout_marginRight="20dp"
             android:background="@drawable/rectangle_white"
-            android:hint="Unique ID"
+            android:hint="Email"
             android:paddingLeft="10dp"
             android:paddingRight="10dp" />
 
